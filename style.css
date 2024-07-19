@@ -1,0 +1,59 @@
+/*  <COLOR>
+    #0D47A1 > #1565C0 > 1
+    #1976D2 > #1E88E5 > 2
+    #2196F3 > #42A5F5 > 3
+    #64B5F6 > #90CAF9 > 4
+    #BBDEFB > #E3F2FD > 5
+
+*/
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+    /* font-size: 1.2rem; */
+    color: #0D47A1;
+}
+
+body{
+    display: flex;
+    /* align-items: center; */
+    background-color: #1E88E5;
+    justify-content: center;
+}
+
+.main{
+    width: 80rem;
+    background-color: #E3F2FD; 
+}
+
+.main h1{
+    text-align: center;
+}
+
+.pic img{
+    width: 60rem;
+    height: 25rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    /* margin: 0; */
+}
+
+
+.pic{
+    height: 160rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.sem-pic{
+    /* background-color: #42A5F5;*/
+    /* height: 20rem; */
+    /* margin: 3rem 0; */
+    /* box-shadow: 1rem 1rem 1rem #42A5F5; */
+    border-radius: 1rem;
+    overflow: hidden;
+}
